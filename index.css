@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #5D5A88;
+}
+
+p {
+    color: #9795B5;
+}
+
+/* navbar */
+.navbar-brand {
+    color: #5D5A88;
+}
+
+.nav-link {
+    color: #5D5A88;
+}
+
+.nav-link:hover {
+    color: #4b3d8d;
+}
+
+/* landing */
+
+.profile-box {
+    height: 400px;
+    background: #5D5A88;
+    border-radius: 10px;
+}
+
+.profile-image img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* PROJECTS */
+
+.feature-card {
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    padding: 1rem;
+    height: 100%;
+}
+
+.card-image {
+    height: 150px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* tools */
+
+.tool-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+/* contact */
+
+.form-control::placeholder {
+    color: #9795B5;
+}
+
+.contact-form {
+    background: #f2f1fa;
+    padding: 2rem;
+    border-radius: 16px;
+}
+
+/* button */
+
+.btn-primary {
+    background: #5D5A88;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #4b3d8d;
+}
+
+/* footer */
+
+.footer {
+    background: #5D5A88;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
